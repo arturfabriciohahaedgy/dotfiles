@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+alias ls="eza -la --color auto"
+alias shtd="sudo shutdown now"
+alias reboot="sudo reboot"

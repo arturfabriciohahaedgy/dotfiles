@@ -1,0 +1,20 @@
+super + Escape
+    pkill -USR1 -x sxhkd
+
+super + Return
+    "$TERMINAL"
+
+super + d
+    dmenu_run
+
+super + e
+    emacs
+
+super + w
+    firefox
+
+super + a
+    arc
+
+super + shift + d
+    dgames

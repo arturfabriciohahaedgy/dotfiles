@@ -1,0 +1,18 @@
+#!/bin/sh
+
+run() {
+    pgrep "$1" || "$*" &
+}
+
+[ -f "$FONTSRV_DIR" ] || fontsrv -m "$FONTSRV_DIR" &
+run sxhkd
+run plumber
+run xmobar
+# "$HOME"/.config/screenlayout/home.sh &
+setxkbmap -option "ctrl:nocaps" br &
+xsetroot -cursor_name left_ptr &
+
+
+# exec awesome
+# exec dwm
+exec xmonad

@@ -1,0 +1,8 @@
+# Options
+set hidden!
+set drawbox
+set cursorpreviewfmt "\033[7;90m"
+
+# CMDs
+
+# Mappings
