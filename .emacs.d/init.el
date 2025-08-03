@@ -376,21 +376,3 @@
  :keymaps 'dired-mode-map
  "b" 'dired-single-up-directory
  "f" 'dired-single-buffer)
-
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   '("9a977ddae55e0e91c09952e96d614ae0be69727ea78ca145beea1aae01ac78d2" default))
- '(package-selected-packages
-   '(corfu eat treesit-auto yasnippet embark nerd-icons all-the-icons treemacs markdown-mode dired-single magit yasnippet-snippets which-key vertico rainbow-delimiters orderless no-littering modus-themes marginalia haskell-mode go general embark-consult doom-themes doom-modeline dashboard company-box auto-package-update all-the-icons-dired)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-(put 'dired-find-alternate-file 'disabled nil)
