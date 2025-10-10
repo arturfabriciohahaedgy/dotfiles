@@ -11,6 +11,7 @@ run xmobar
 # "$HOME"/.config/screenlayout/home.sh &
 setxkbmap -option "ctrl:nocaps" br &
 xsetroot -cursor_name left_ptr &
+xwallpaper --stretch "$XDG_CONFIG_HOME"/wall.jpg
 
 
 # exec awesome
